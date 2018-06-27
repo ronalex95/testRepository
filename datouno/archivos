@@ -1,1 +1,15 @@
 nuevo archivo
+
+git init
+git add README.md
+git commit -m "first"
+git remote add origin https:
+
+git push -u origin master
+
+
+
+Command line para hacer pushi de un proyeccto
+
+git remote add origin http
+git pushi -u origin master
