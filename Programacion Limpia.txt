@@ -1,5 +1,5 @@
-Esto no es una prueba
-
+Esto no es una pruebaV"
+MyR
 public class Trabajadores{
 	private string nombre;
 	private int edad;
