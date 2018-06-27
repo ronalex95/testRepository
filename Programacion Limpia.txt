@@ -1,0 +1,52 @@
+public class Trabajadores{
+	private string nombre;
+	private int edad;
+	
+	
+	
+	Trabajadores(int edad, string nombre){
+		this.edad = edad;
+		this.nombre = nombre;
+		
+		
+	}
+	
+	getEdad(int edad){
+		this.edad = edad;
+		
+	}
+	
+	
+}
+
+Public class CalculosPromedioEdades{
+	
+List<Trabajadores> trabajador = new List<Trabajadores>;	
+	
+	public int devolverPromedioEdadesTrabajadores(int[] trabajador){
+		private int totalEdades=0;
+		private int promedioEdades=0;
+		for (int i = 0 , i < trabajador.length , i++ )
+		{
+
+			totalEdades+=trabajador[i].getEdad();
+			
+		}
+		promedioEdades= totalEdades/trabajador.length();
+		return promedioEdades
+		
+	}
+	
+	}
+	
+	public class CalculosApretonesMano{
+		
+		List<Trabajadores> trabajador = new List<Trabajadores>;	
+		
+		int numeroTrabajadores = trabajador.length;
+	public int devolverCantitadApretonesMano(int numeroTrabajadores)
+		private int apretaonesMano= (numeroTrabajadores * numeroTrabajadores-1)/2;
+		return apretaonesMano;
+	}
+	}
+}
